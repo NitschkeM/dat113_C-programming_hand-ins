@@ -1,0 +1,36 @@
+﻿Purpose
+This week we will focus two new building blocks: Arrays and functions. The program you write will use variables and loops from last week together with these two new features.
+Instructions
+1. Create a CLion-project called hand-in_3_1 inside your hand-ins folder
+Make sure hand-in_3_1 is also added to the end of the path: hand-ins/hand-in_3_1
+2. Write a program that reads in 10 integers, then:
+   1. Prints out the lowest value:
+Minimum: 5
+   2. Prints out the highest value:
+Maximum: 12
+   3. Prints out the sum of all the values
+Sum: 78
+   4. Prints out the average (make sure you use %g with printf):
+Average: 15.6
+   5. Optional: Prints out the numbers, sorted
+Sorted: 1 4 5
+   6. Optional: Prints out the median
+Median: 4.2
+      1. Commit the code to Git from CLion
+      2. Push the code to Bitbucket from CLion
+      3. Check Bamboo to see if your code passes
+
+
+Requirements: Minimum, maximum, sum and average must be calculated using functions you write, not directly in main. Here is a quick example of a function (more in the lecture):
+
+
+int add(int num1, int num2)
+{
+        return num1 + num2;
+}
+
+
+Approach: Try to work on one part at a time, same as last week. I recommend starting with reading in ten numbers and printing them back to make sure that part is working before you continue. Then write function for a, b, c and d, one at a time. Don’t start on multiple things at once, build often, test often!
+
+
+Tip: For the sorting have a look at qsort, which already exists in the standard library. If you want to sort manually then bubble sort might be the easiest.

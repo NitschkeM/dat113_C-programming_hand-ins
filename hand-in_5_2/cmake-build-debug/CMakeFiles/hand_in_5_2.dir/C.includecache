@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Computer_science/dat113/hand-ins/hand-in_5_2/main.c
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+student.h
+D:/Computer_science/dat113/hand-ins/hand-in_5_2/student.h
+
+D:/Computer_science/dat113/hand-ins/hand-in_5_2/student.c
+stdio.h
+-
+string.h
+-
+student.h
+D:/Computer_science/dat113/hand-ins/hand-in_5_2/student.h
+
+D:/Computer_science/dat113/hand-ins/hand-in_5_2/student.h
+

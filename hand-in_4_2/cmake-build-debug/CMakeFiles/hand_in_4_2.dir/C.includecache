@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Computer_science/dat113/hand-ins/hand-in_4_2/main.c
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+

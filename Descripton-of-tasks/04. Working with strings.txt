@@ -1,0 +1,80 @@
+﻿Purpose
+This week we will continue with our new building block, functions, and add strings to the mix. You will both use functions from the standard library and write some of your own.
+Note: Each of the main tasks will be a separate CLion project / program.
+Instructions
+4.1
+Folder name: hand-in_4_1
+
+
+Specification:
+Write an application that asks the user for a word and:
+
+
+1. Tells how many letters are in the word
+2. Tells if the word is a palindrome
+3. Prints the word reversed
+
+
+Notes:
+Do not use the strrev function. It is not available on Linux and your code will not pass Bamboo tests. Write your own.
+
+
+Requirements:
+Checking if the word is a palindrome must be done in a function returning bool.
+Reversing the string must be done in function as well.
+
+
+Expected output:
+The word contains 5 letters
+The word is a palindrome / The word is not a palindrome
+The word reversed is 'olleh'
+4.2
+Folder name: hand-in_4_2
+
+
+Specification:
+Write an application that asks for a string as input and:
+
+
+1. Prints the string in uppercase and lowercase
+2. Splits the string on the middle and prints the two parts with " - " between
+
+
+Requirements: Converting the string to upper and lower case must be done in functions. Do not use strlwr or strupr, they are not standard and will not work on Bamboo.
+
+
+Expected output:
+The string in uppercase is 'HELLO WORLD'
+The string in lowercase is 'hello world'
+The string split in two is 'hello -  world'
+4.3
+Folder name: hand-in_4_3
+
+
+Specification:
+Write an application that asks for two strings and:
+
+
+1. Tells if the strings are equal or not
+2. Tells if one string is a substring of the other
+
+
+Expected output:
+are equal / are not equal
+is a substring / is not a substring
+4.4 - optional
+Folder name: hand-in_4_4
+
+
+Specification:
+Write an application that asks for a string and:
+
+
+1. Tells how many times each character of the alphabet appears in the string
+
+
+Example input: aaaaabbccc
+Expected output:
+'a' : 5
+'b' : 2
+'c' : 3

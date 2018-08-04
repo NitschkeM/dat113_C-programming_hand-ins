@@ -1,0 +1,24 @@
+﻿Purpose
+The purpose of this hand-in is to ensure that you have the tools configured correctly and that you are able to push (upload) your hand-in to git. You should see the tests passing on Bamboo. You can also see your grade in Canvas. The grade in Canvas is updated every 30 minutes.
+
+
+Before you start make sure you have completed course preparations and have read the detailed instructions so you know how to configure each project in CLion and deliver it to Bitbucket.
+
+
+This is the first hand-in so here are some tips: Computers are dumb. If you make a tiny mistake the tests will not pass. Here are some examples that will fail your hand-in:
+
+
+* Calling the hand-ins folder Hand-ins (uppercase H, not correct)
+* Calling the hand-ins folder handins (missing dash, not correct)
+* Calling the task folder hand-in_01_01 (extra 0, not correct)
+* Task 1.2: Writing Hello, Christian (missing exclamation mark)
+Instructions
+Git folder name: hand-ins/hand-in_1_1
+
+
+1. Create a CLion-project called hand-in_1_1 inside your hand-ins folder
+Make sure hand-in_1_1 is also added to the end of the path: hand-ins/hand-in_1_1
+2. Create a program that prints out Hello, World!
+3. Commit the code to Git from CLion or command line
+4. Push the code to Bitbucket from CLion or command line
+5. Check Bamboo to see if your code passes

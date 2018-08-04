@@ -1,0 +1,110 @@
+﻿Purpose
+This week we will learn a new basic building block, the structure. Structures are used to group related data, e.g. name and age of a student. Using structures you can pass a student to a function as one parameter instead of many.
+
+
+We will also learn how to read and write files from/to the hard drive, making it possible to store data permanently even if you close your program.
+
+
+Note: Optional tasks are required to get an A on the hand-ins. Without the optional tasks the maximum grade is C.
+
+
+
+
+Grading critera for hand-in 5 and 6
+	1. Code functionality (Bamboo tests)
+	2. Code structure (use of structures, functions, files)
+	3. Readability (formatting, naming, "spaghetti")
+	
+
+5.1
+Folder name: hand-in_5_1
+
+
+Specification:
+Write an application that asks the user for the following student information:
+
+
+* Student id
+Example: 3872187
+* Name
+Example: John Doe
+* Age
+Example: 21
+
+
+Then prints the information back to the user.
+
+
+Requirements:
+The student information must be stored and retrieved in a structure.
+
+
+Optional:
+Put the code that reads in the information and prints it back out in two separate functions so that your main() function becomes easier to read, e.g:
+
+
+   * student_t read_student()
+   * void print_student(student_t student);
+
+
+Even cleaner: Put these functions in a separate file.
+
+
+Expected output:
+Student id: 3872187
+Name: John Doe
+Age: 21
+5.2
+Folder name: hand-in_5_2
+
+
+Specification:
+Reuse the code you made in 5.1, then modify it so that:
+
+
+The application prints a menu with the following choices:
+
+
+   1. Read student information from file
+   2. Write student information to file
+   3. Exit
+
+
+The user (and  my tests) types 1, then 3 (for example).
+
+
+Choice 1 does:
+   * Opens the file student_read.txt (it already exists on Bamboo)
+   * Reads in each of the lines
+   * Prints the information using the format from 5.1
+
+
+Choice 2 does:
+   * Asks the user for the student information (like 5.1)
+   * Writes that information to the student_write.txt file, example below
+
+
+Choice 3 exits the program
+
+
+Requirements:
+The text file format:
+
+
+3872187
+John Doe
+21
+
+
+Optional:
+Put the code that reads and writes the file in separate functions.
+
+
+Expected output:
+Same as 5.1
+5.3 - optional
+Create a separate header file for your structure so that main.c is small and tidy. Use your new header file from main.c. Research what include guards are and why you use them. Add them to your header file. Do the optional changes with the 5.2 hand-in, you don’t create a separate project.
+
+
+5.4 - Optional
+Complete the optional part of 5.2. Move the two functions you wrote to a separate .c file and declare them in the header file you made in 5.3 to tidy up your code even more. Do the optional changes with the 5.2 hand-in, you don’t create a separate project.

@@ -1,0 +1,22 @@
+﻿Purpose
+This week we will start learning more about the C programming language. Git and CLion should be installed and working from last week, so the focus is to start programming in CLion. Delivery will be done the same way as hand-in 1, and you can see if your hand-in passes on Bamboo as usual.
+Instructions
+1. Create a CLion-project called hand-in_2_1 inside your hand-ins folder
+Make sure hand-in_2_1 is also added to the end of the path: hand-ins/hand-in_2_1
+2. Write a program that asks the user for numbers until 0 is given, then:
+   1. Prints out how many numbers have been given (excluding the 0):
+Count: 5
+   2. Prints out the sum of all the numbers
+Sum: 78
+   3. Prints out the average:
+Average: 15.6
+      1. Commit the code to Git from CLion
+      2. Push the code to Stash from CLion
+      3. Check Bamboo to see if your code passes
+
+
+Tip: Print the result using %g so that rounding matches my tests.
+Tip 2: You do not need to use arrays for this hand-in
+
+
+Note that the output must be written exactly as stated (with the calculated numbers of course). Missing space, lowercase “sum” etc will fail the tests.
